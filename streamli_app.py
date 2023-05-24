@@ -15,7 +15,7 @@
 
 # This demo lets you to explore the Udacity self-driving car image dataset.
 # More info: https://github.com/streamlit/demo-self-driving
-
+pip install python-opencv
 import streamlit as st
 import altair as alt
 import pandas as pd
