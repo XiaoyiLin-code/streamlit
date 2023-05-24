@@ -27,3 +27,9 @@ st.text('导入 streamlit 后，就可以直接使用 st.markdown() 初始化')
 code2 = '''import streamlit as st
 st.markdown('Streamlit Demo')'''
 st.code(code2, language='python')
+
+@st.cache
+def load_dataset(data_link):
+    dataset = pd.read_csv(data_link)
+    return dataset
+
